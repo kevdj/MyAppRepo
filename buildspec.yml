@@ -8,3 +8,8 @@ phases:
     commands:
       - echo "Building the application"
       - python app.py  # Run the application
+
+artifacts:
+  files:
+    - '**/*'  # Adjust as necessary to include all relevant files
+  discard-paths: no  # Preserves the folder structure
