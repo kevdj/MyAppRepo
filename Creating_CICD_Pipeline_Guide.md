@@ -12,6 +12,7 @@ This guide explains how to set up a CI/CD pipeline using AWS CodePipeline, CodeB
    - Your source code should include:
      - A **buildspec.yml** file for CodeBuild.
      - An **appspec.yml** file for CodeDeploy.
+     - - A **app.py** file for to run in application.
 
 ---
 
